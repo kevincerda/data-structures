@@ -7,7 +7,7 @@ class Stack {
   push(value) {
   	this.storage[this.count] = value;
   	this.count += 1;
-  }
+  };
 
   pop() {
   	if (this.count > 0) {
@@ -16,9 +16,10 @@ class Stack {
 	  	delete this.storage[this.count];
 	  	return result;
 	  }
-  }
+  };
 
   size() {
   	return Object.keys(this.storage).length;
-  }
+  };
+  
 };
