@@ -54,6 +54,8 @@ Graph.prototype.forEachNode = function(cb) {
 
 /*
  * Complexity: What is the time complexity of the above functions?
+ * Add node: O(1) constant time
+ * The rest of the methods are O(n) - linear time.
  */
 
 

@@ -30,4 +30,6 @@ treeMethods.contains = function(target) {
 
 /*
  * Complexity: What is the time complexity of the above functions?
+ * O(1) constant time for add child.
+ * O(n) linear time for contains and forEach
  */
